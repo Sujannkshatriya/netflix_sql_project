@@ -115,6 +115,5 @@ count(*),
 count(*)::numeric/(select count(*) from netflix where country='India') * 100 as avg_content_per_year
 from netflix
 where country ='India'
-```
 group by 1
-111
+111```
