@@ -109,4 +109,3 @@ from netflix
 where country ='India'
 group by 1
 
-
