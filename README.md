@@ -116,4 +116,5 @@ count(*)::numeric/(select count(*) from netflix where country='India') * 100 as 
 from netflix
 where country ='India'
 group by 1
-111```
+111
+```
