@@ -3,6 +3,8 @@
 ![Netflix Logo](https://github.com/Sujannkshatriya/netflix_sql_project/blob/main/netflix.jpg)
 
 ## Objectives
+
+```sql
 -- netflix project
 drop table if exists netflix;
 create table netflix(show_id varchar(10),
@@ -18,6 +20,9 @@ duration varchar(15),
 listed_in varchar(300),
 description varchar(300)
 );
+```
+
+##Buisness Problem and Solution
 
 select * from netflix ;
 
